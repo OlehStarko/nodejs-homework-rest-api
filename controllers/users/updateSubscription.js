@@ -1,4 +1,4 @@
-const { User } = require('../../models/usersModel');
+const { User } = require("../../models/usersModel");
 
 const updateSubscription = async (req, res, next) => {
   const { _id, email } = req.user;
