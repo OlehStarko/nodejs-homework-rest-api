@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-mongoose.set("strictQuery", true);
 mongoose.Promise = global.Promise;
 
 const Schema = mongoose.Schema;

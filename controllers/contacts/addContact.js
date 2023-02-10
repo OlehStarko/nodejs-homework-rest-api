@@ -1,7 +1,6 @@
 const Contact = require("../../models/contactsModel");
 
 const addContact = async (req, res) => {
-
   const { name, email, phone, favorite } = req.body;
   const contact = new Contact({
     owner: req.user.id,
